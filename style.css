@@ -1,0 +1,45 @@
+body {
+    margin: 20px 200px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+h3{
+    font-size: 24px;
+}
+
+#equipe {
+    padding-right: 200px;
+}
+
+.selecao {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#primeira-linha {
+    background-color: white;
+    font-size: 12px;
+    color: #cecece;
+    cursor: unset;
+}
+
+.bandeira {
+    margin: 0px 10px;
+}
+tr:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+.classificados {
+    border-left: 4px solid rgb(0, 17, 255);
+    padding-left: 5px;
+}
+.numeracao {
+    border-left: 4px solid rgba(255, 255, 255, 0);
+    padding-left: 5px;
+}
