@@ -1,0 +1,57 @@
+/* table {
+    background-color: rgb(200, 219, 205)
+} */
+
+
+body {
+    margin: 0px 200px;
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
+
+}
+
+td,
+th {
+    padding-right: 8px;
+    text-align: center;
+}
+
+h3 {
+    front_size: 24px;
+}
+
+#equipe {
+    padding-right: 200px;
+}
+
+.selecao {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+#primeira-linha {
+    background-color: rgb(227, 236, 227);
+    font-size: 12px;
+    color: rgb(11, 202, 202);
+    cursor: unset;
+}
+
+.bandeira {
+    margin: 0px 10px;
+}
+
+tr:hover {
+    background-color: rgb(49, 139, 139);
+    cursor: pointer;
+}
+
+.classificados {
+    border-left: 2px solid rgba(247, 244, 241, 0);
+    padding-left: 5px;
+
+}
+
+.numeracao {
+    border-left: 4px solid rgb(36, 102, 102);
+    padding-left: 5px;
+}
