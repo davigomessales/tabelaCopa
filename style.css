@@ -1,7 +1,43 @@
 body {
-    margin: 20px 200px;
+    margin: 0px;
+    background-color: #f2f2f2;
     font-family: 'Montserrat', 'Arial', sans-serif;
 }
+.grupos {
+    background-color: white;
+    margin: 20px auto;
+    width: 600px;
+    padding-top: 150px;
+}
+.menu {
+    background-color: #8A1538;
+    position: fixed;
+    width: 100%;
+    top: 0px
+}
+
+.menu h2 {
+    color: white;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+li:hover {
+    background-color: #5b0e25c2;
+}
+
 th, td {
     padding: 5px;
     text-align: center;
