@@ -1,0 +1,99 @@
+/* table {
+    background-color: rgb(108, 158, 125); */
+
+
+/* #tabelabrasil {
+    background-color: brown;
+} */
+/* #divTabelaBrasil {
+    background-color: rgb(64, 28, 129); */
+
+
+body {
+    margin: 0px;
+    background-color: #f2f2f2;
+    font-family: 'Monsserat', 'Arial', sans-serif;
+}
+
+
+
+/* .container{
+    margin: 20px auto;
+    width: 600px;
+} */
+.grupos{
+    margin: 20px auto;
+    width: 600px;
+    padding-top: 150px;
+    background-color: white;
+}
+.menu{
+    background-color: #8A1538;   
+    position:fixed;
+    width: 100%;
+    top: 0px
+}
+.menu h2{
+    color: white;
+}
+.menu li a{
+color: white;
+text-decoration: none;
+
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+.menu ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+li:hover{
+    background-color: #8b3751; 
+}
+td,
+th {
+    padding: 8px;
+    text-align: center;
+
+}
+
+#equipe {
+    padding-right: 100px;
+
+}
+
+.selecao {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#primeira-linha {
+   background-color: rgb(243, 243, 243);
+    font-size: 12px;
+    color: #000000;
+    cursor: unset;
+
+}
+
+.bandeira {
+    margin: 0px 5px;
+}
+tr:hover {
+    background-color: rgb(128, 123, 123);
+    cursor: pointer;
+
+}
+.classificados{
+    border-left: 4px solid aquamarine;
+    padding-left: 5px;
+}
+
+.numeracao {
+    border-left: 4px solid rgba(178, 34, 34, 0) ;
+    padding-left: 5px ;
+}
