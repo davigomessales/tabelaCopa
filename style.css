@@ -1,0 +1,93 @@
+body {
+    background-color: #fff;
+    margin: 0px;
+    font-family: 'Montserrat', 'Arial', sans-serif
+}
+
+td, th{
+    padding: 5px;
+    text-align: center;
+}
+
+.equipe {
+    padding-right: 200px;
+}
+
+.selecao {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+#plinha {
+    font-size: 11px;
+    color: rgb(169, 169, 169);
+    background-color: white;
+    cursor: unset;
+}
+
+.bandeira {
+    padding: 0px 6px;
+}
+tr:hover {
+    background-color: rgba(169, 169, 169, 0.137);
+    cursor: pointer;
+}
+
+.classificados {
+    border-left: 4px solid blue;
+    padding-left: 5px;
+}
+
+.numeracao {
+    border-left: 4px solid rgba(255, 255, 255, 0);
+    padding-left: 5px;
+}
+
+/* .container {
+    margin: 20px auto;
+    width: 600px;
+} */
+
+.menu {
+    background-color: #8A1438;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.grupos {
+    margin: 20px auto;
+    width: 600px;
+    padding-top: 115px;
+    background-color: white;
+}
+
+.menu h2 {
+    color: white;
+   margin-left: 30px;
+}
+
+.menu li a {
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding: 12px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+li:hover {
+    background-color: #771230;
+}
