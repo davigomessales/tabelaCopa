@@ -1,0 +1,83 @@
+body {
+     background-color: white;
+     margin: 0px;
+     font-family: "Montserrat", "Arial", sans-serif
+}
+/* .container {
+     margin: 20px auto;
+     width: 600px;
+} */
+.grupos {
+     background-color: rgb(248, 239, 239);
+     margin: 20px auto;
+     width: 600px;
+     padding-top: 150px;
+}
+.menu {
+     background-color: #8a1538;
+     position: fixed;
+     width: 100%;
+     top: 0px;
+}
+
+.menu h2 {
+     color: white;
+}
+.menu li a{
+     color: rgb(247, 247, 247);
+     text-decoration: none;
+}
+.menu ul li {
+     list-style-type: none;
+     padding: 15px;
+}
+.menu ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-bottom: 0px;
+}
+
+li:hover {
+     background-color: #7a1130a1;
+}
+
+th, td {
+     padding: 5px;
+     text-align: center;
+
+}
+h3 {
+     font-size: 24px;
+}
+#equipe {
+     padding-right: 200px;
+}
+.selecao {
+     text-align: left;
+     display: flex;
+}
+#primeira-linha {
+     background-color: white;
+     font-size: 12px;
+     color: gray;
+     cursor: unset;
+}
+
+.bandeira {
+     margin: 0px 10px;
+}
+tr:hover {
+     background-color: rgb(230, 212, 212);
+     cursor: pointer ;
+}
+.classificados {
+     border-left: 4px solid rgb(0, 15, 219);
+     padding-left: 5px;
+     
+}
+.numeracao {
+     border-left: 4px solid rgba(252, 250, 250, 0);
+     padding-left: 5px;
+}
+

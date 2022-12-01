@@ -1,77 +1,125 @@
 <html>
-    <head>
-        
-        <title>Tabela da Copa</title>
 
-    </head>
-    <body> 
-        <title>Tabela do Grupo A</title>
+<head>
 
-        <div>
-            <table border="2">
-                <th></th>
+    <title>Tabela da Copa</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+
+</head>
+
+<body>
+    <div>
+        <div class="container">
+
+            <div class="menu">
+                <h2>Copa do Mundo da FIFA Catar 2022</h2>
+                <ul>
+                    <li><a href="">Partidas</a></li>
+                    <li><a href="">Notícias</a></li>
+                    <li><a href="">Fase Final</a></li>
+                    <li><a href="">Jogadores</a></li>
+                    <li><a href="">Estatísticas</a></li>
+                    <li><a href="">Classificação</a></li>
+                </ul>
+            </div>
+            <div  class="grupos">
+            <table>
                 <tbody>
 
-                <tr>
-                    <h1>Grupo A</h1>
-                    <div>
-                </tr>
-                <tr><th>Equipes</th>
-                    <th>Pts</th>
-                    <th>Pj</th>
-                    <th>Vt</th>
-                    <th>Ep</th>
-                    <th>Dr</th>
-                    <th>Gm</th>
-                    <th>Gs</th>
-                    <th>Sg</th>
-                </tr>
-                <tr>
-                    <th><img src="https://ssl.gstatic.com/onebox/media/sports/logos/8GEqzfLegwFFpe6X2BODTg_96x96.png" width="16px"/>1 - Holanda</th>
-                    <td>4</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <th><img src="https://ssl.gstatic.com/onebox/media/sports/logos/AKqvkBpIyr-iLOK7Ig7-yQ_48x48.png" width="16px"/>2 - Equador</th>
-                    <td>4</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <th><img src="https://ssl.gstatic.com/onebox/media/sports/logos/zw3ac5sIbH4DS6zP5auOkQ_48x48.png" width="16px"/>3 - Senegal</th>
-                    <td>3</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>3</td>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <th><img src="https://ssl.gstatic.com/onebox/media/sports/logos/h0FNA5YxLzWChHS5K0o4gw_48x48.png" width="16pxs"/>4 - Catar</th>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>5</td>
-                    <td>-4</td>
-                </tr>
+                    
 
-            <!-- </div>
+                            <h1>Grupo A</h1>
+
+
+
+                        <tr id="primeira-linha">
+                            <th id="equipe">Equipes</th>
+                            <th>Pts</th>
+                            <th>Pj</th>
+                            <th>Vt</th>
+                            <th>Ep</th>
+                            <th>Dr</th>
+                            <th>Gm</th>
+                            <th>Gs</th>
+                            <th>Sg</th>
+                        </tr>
+                        <tr onclick="window.open('https://www.google.com.br/search?q=holanda')">
+
+                            <!-- <tr onclick="location.href='https://www.google.com.br/search?q=holanda'"> -->
+                            <th class="selecao">
+                                <span class="classificados">1</span>
+                                <span class="bandeira">
+                                    <img src="https://ssl.gstatic.com/onebox/media/sports/logos/8GEqzfLegwFFpe6X2BODTg_96x96.png"
+                                        width="24px" />
+                                </span>
+                                Holanda
+                            </th>
+                            <td>7</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>4</td>
+                        </tr>
+                        <tr onclick="window.open('https://www.google.com.br/search?q=semegal')">
+                            <!-- <tr onclick="location.href='https://www.google.com.br/search?q=senegal'"> -->
+                            <th class="selecao">
+                                <span class="classificados">2</span>
+                                <span class="bandeira">
+                                    <img src="https://ssl.gstatic.com/onebox/media/sports/logos/zw3ac5sIbH4DS6zP5auOkQ_48x48.png"
+                                        width="24px" /></span> Senegal
+                            </th>
+                            <td>6</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <!-- <tr onclick="location.href='https://www.google.com.br/search?q=equador'"> -->
+                        <tr onclick="window.open('https://www.google.com.br/search?q=equador')">
+                            <th class="selecao">
+                                <span class="numeracao">3</span>
+                                <span class="bandeira">
+                                    <img src="https://ssl.gstatic.com/onebox/media/sports/logos/AKqvkBpIyr-iLOK7Ig7-yQ_48x48.png"
+                                        width="24px" /></span> Equador
+                            </th>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>3</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr onclick="window.open('https://www.google.com.br/search?q=catar')">
+                            <!-- <tr onclick="location.href='https://www.google.com.br/search?q=catar'"> -->
+                            <th class="selecao">
+                                <span class="numeracao">4</span>
+                                <span class="bandeira">
+                                    <img src="https://ssl.gstatic.com/onebox/media/sports/logos/h0FNA5YxLzWChHS5K0o4gw_48x48.png"
+                                        width="24pxs" /></span> Catar
+                            </th>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>-6</td>
+                        </tr>
+                    </div>
+                    
+
+                    <!-- </div>
                 <div>
                     <table border="3" bgcolor="">
                         <thead>
@@ -100,7 +148,7 @@
             </table>
 
         </div> -->
+        </div>
+</body>
 
-    </body>
-    
 </html>
